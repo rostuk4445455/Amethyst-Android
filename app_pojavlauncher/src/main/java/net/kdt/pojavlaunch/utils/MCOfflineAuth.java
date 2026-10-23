@@ -3,7 +3,8 @@ package net.kdt.pojavlaunch.utils;
 import java.util.UUID;
 import net.kdt.pojavlaunch.authenticator.UserIdentity;
 
-public final class MCOfflineAuth {
+public final class MCOptionUtils {
+    
     public static UserIdentity createLogin(String username) {
         UserIdentity identity = new UserIdentity();
         identity.username = username;
